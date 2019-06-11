@@ -9,51 +9,44 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Formation
 ======
-* B.S. in GitHub, GitHub University, 2013
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* 4ème année d'école d'ingénieurs, ESIR - Spécialité Imagerie Numérique, 2019
+* BAC Scientifique, 2015
 
-Work experience
+Expérience professionnelle
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Eté 2019 : Stage en recherche et développement sur lasuper-résolution
+  * Jouve, Rennes-Mayenne
+  * Réalisation d'un prototype de Super-résolution sous Android
+  * Recherche d'amélioration des méthodes et outils utilisés
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Eté 2018 : Équipier polyvalent
+  * McDonalds, Servon
+  * Travail d'été dans la restauration rapide
   
-Skills
+* Eté 2017 : Stage en développement Java
+  * Renault, Guyancourt
+  * Programmation JEE
+  * Développement agile
+  
+Compétences
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* C++
+* Machine Learning
+* Programmation GPU (CUDA, OpenGL, ...)
+* Synthèse d'image
+  * Raytracing
+  * Synthèse de textures
+  * Animation
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Talks
+Expériences associatives
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+* Membre de la Junior entreprise de l'ESIR
+  * Responsable de la rédaction des documents et du suivi des études
+* Membre du bureau des élèves
+  * Responsable du tutorat
+  * organisation de cours de soutien pour les élèves en difficultés
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
