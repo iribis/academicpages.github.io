@@ -14,6 +14,7 @@ Formation
 * 4ème année d'école d'ingénieurs, ESIR - Spécialité Imagerie Numérique, 2019
 * BAC Scientifique, 2015
 
+
 Expérience professionnelle
 ======
 * Eté 2019 : Stage en recherche et développement sur lasuper-résolution
@@ -29,7 +30,8 @@ Expérience professionnelle
   * Renault, Guyancourt
   * Programmation JEE
   * Développement agile
-  
+
+
 Compétences
 ======
 * C++
@@ -40,7 +42,13 @@ Compétences
   * Synthèse de textures
   * Animation
 
-  
+
+Langues
+======
+* Français (langue maternelle)
+* Anglais (Niveau B2 TOIC)
+
+
 Expériences associatives
 ======
 * Membre de la Junior entreprise de l'ESIR
