@@ -5,7 +5,8 @@ permalink: /raytracing/
 author_profile: true
 ---
 
-Le projet de Raytracing est celui sur lequel j'ai le plus travaillé. Je l'ai commencé avec les cours de synthèse d'image de l'école et j'ai continué a travailler dessus même après la fin du cours. L'objectif principale était de créer un moteur de lancé de rayon en C++ et d'implémenter un certaines amélioration. Nous avons par exemple travaillé sur les structures d'accélération et l'illumination globale.
+En 2018 j'ai commencé à travailler sur un projet de moteur de Raytracing. C'est un projet qui a débuté avec les cours de lancé de rayon que j'ai eu lors de ma formation et sur lequel j'ai beaucoup travaillé. J'ai passé une grande partie de mon temps libre a travaillé sur ce sujet tout au long de l'année afin d'améliorer le rendu.
 
+L'objectif du projet était de réaliser un moteur de lancé de rayon en C++, d'implémenter des structures d'accélération et estimateur de Monte-carlo pour l'illumination globale. Une grande partie de mon travail à été sur la réalisation d'un moteur le moins biaisé possible.
 
 
