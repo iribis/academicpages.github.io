@@ -5,7 +5,7 @@ permalink: /raytracing/
 author_profile: true
 ---
 
-<img align="center" src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" alt="Image_1">
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
 
 ![Image_Raytracing](https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg)
 
