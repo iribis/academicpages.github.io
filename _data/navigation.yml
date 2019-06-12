@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Projet Raytracing"
-    url: /publications/
+    url: /raytracing/
 
   - title: "Projet Synthèse de textures"
     url: /talks/    
