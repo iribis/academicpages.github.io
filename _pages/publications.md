@@ -5,7 +5,9 @@ permalink: /raytracing/
 author_profile: true
 ---
 
-<p align="center">![Image_Raytracing](https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg)<p align="center">
+<img align="center" src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" alt="Image_1">
+
+![Image_Raytracing](https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg)
 
 
 En 2018 j'ai commencé à travailler sur un projet de moteur de Raytracing avec mon binome. C'est un projet qui a débuté avec les cours de lancé de rayon que j'ai eu lors de ma formation et sur lequel j'ai beaucoup travaillé. J'ai passé une grande partie de mon temps libre a travaillé sur ce sujet tout au long de l'année afin d'améliorer le rendu.
