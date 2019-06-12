@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Projet Raytracing"
+permalink: /raytracing/
 author_profile: true
 ---
 Test
