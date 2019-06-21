@@ -11,8 +11,8 @@ redirect_from:
 
 Formation
 ======
-* 4ème année d'école d'ingénieurs, ESIR - Spécialité Imagerie Numérique, 2019
-* BAC Scientifique, 2015
+* 4th year in Graduate Engenering School, ESIR - Rennes, 2019
+* French High School Leaving Certificate with Honours, 2015
 
 
 Expériences professionnelles
