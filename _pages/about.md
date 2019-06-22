@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Cette page regroupe une partie des projets que j'ai réalisé.
+This page try to show some projects i made durinf this year on differents subjects.
