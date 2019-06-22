@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-This page try to show some projects i made durinf this year on differents subjects.
+This page try to show some projects i made during this year on differents subjects. Some of this projects where started for school projects and 
