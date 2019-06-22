@@ -9,61 +9,64 @@ redirect_from:
 
 {% include base_path %}
 
-Formation
+Education
 ======
-* 4th year in Graduate Engenering School, ESIR - Rennes, 2019
-* French High School Leaving Certificate with Honours, 2015
+* 4th year in Graduate Engenering School, ESIR - Rennes France, 2019
+* French High School Leaving Certificate with Honours, Rennes France, 2015
 
 
-Expériences professionnelles
+Profesional experience
 ======
-* Eté 2019 : Stage en recherche et développement sur lasuper-résolution
-  * Jouve, Mayenne
-  * Réalisation d'un prototype de Super-résolution sous Android
-  * Recherche d'améliorations des méthodes et outils utilisés
+* Summer 2019 : Intership in  research and development on Super resoltion
+  * Jouve, Mayenne France
+  * Prototype for super resolution developpment in Android
+  * Analysis of the state of art
 
-* Eté 2018 : Équipier polyvalent
-  * McDonalds, Servon
-  * Travail d'été dans la restauration rapide
+* Summer 2018 : Team member
+  * McDonalds, Servon France
+  * Summer job in a fast food restaurant
   
-* Eté 2017 : Stage en développement Java
-  * Renault, Guyancourt
-  * Programmation JEE
-  * Développement agile
+* Summer 2017 : Intership in JAVA programming
+  * Renault, Guyancourt France
+  * JEE programming
+  * Agile developpment
   
-* Eté 2014-2016 : Animateur
-  * Centre de loisir, Liffre
-  * Organisation d'activitées diverses
-  * Préparation d'événements
-  * Surveillance des baignades
+* Summer 2016 : Intership to update a Labview software
+  * UTP, Timisoara Romania
+  * Updating an old project
+  * Creating compatibilities for all Windows versions
+  
+* Summer 2014-2016 : Contract staff
+  * Liffre France
+  * Waiter
+  * Animator
+  * Team manager for projects
 
-
-Compétences
+Strengths
 ======
 * C++
 * Machine Learning
 * Programmation GPU (CUDA, OpenGL, ...)
-* Synthèse d'image
+* Image synthesis
   * Raytracing
-  * Synthèse de textures
   * Animation
 
 
-Langues
+Languages
 ======
-* Français (Langue maternelle)
+* Frensh (Native speaker)
 
-* Anglais (Niveau B2 TOIC)
+* English (Niveau B2 TOIC)
 
 
-Expériences associatives
+Other experiences
 ======
-* Membre de la Junior entreprise de l'ESIR
-  * Responsable de la rédaction des documents et du suivi des études
+* Membre of the Junior company of ESIR school
+  * Manager of the documents redaction
   
-* Membre du bureau des élèves
-  * Responsable du tutorat
-  * Organisation de cours de soutien pour les élèves en difficultés
-  * Organisation d'évènement (GamJam, Gala, ...)
+* Membre of the Student organisation of ESIR school
+  * Tutoring manager, 2017-2018
+  * Managing tutoring for ESIR students
+  * Organization of the first GAMEJAM of ESIR
   
 
