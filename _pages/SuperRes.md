@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "SuperRes"
+title: "Projet Super-Résolution d'images"
 permalink: /super_resolution/
 author_profile: true
 ---
