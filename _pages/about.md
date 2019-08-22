@@ -8,6 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+
+Aligning text in native markdown is not possible. However, you can align the text using inline HTML tags.
+
+<div style="text-align: justify"> 
 This page as for objectives to regroup and summarize some projects I made this year. As a second-year student at ESIR school, I worked on differents subject around digital imaging in some projects. All of them where a way to learn more about subjects that passionate me during my classes. 
 
 The main project I made is a path tracing renderer in C++ and CUDA. I started this project during an image synthesis project consisting on a raycasting renderer. At the end of the project, I continue working an this render to add some new features including global illumination with path tracing, different kind of materials or area lights. It was for me the most interesting project and I'm still working on it during my free time. 
@@ -20,3 +24,4 @@ My last project was a multi-frame super resolution application in Android. I wor
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
 
 Feel free to contact me if you have some questions. 
+</div>
