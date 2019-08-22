@@ -1,12 +1,12 @@
 # main links links
 main:
-  - title: "Projet Raytracing"
+  - title: "Raytracing project"
     url: /raytracing/
 
   - title: "Saillance modele project"
     url: /saillance_modele/    
 
-  - title: "Projet Super-Résolution d'images"
+  - title: "Image super-resolution project"
     url: /super_resolution/    
     
   - title: "CV"
