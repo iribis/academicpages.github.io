@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-This page as for objectif to regroupe and summurize some projects i made this year. I work a lot on my free time to developpe this projects and increase my knowleges on thoose sujects. Some of this projects where stated during my school classes but other are just projects i wanted to make.
+This page as for objectives to regroup and summarize some projects I made this year. As a second-year student at ESIR school, I worked on differents subject around digital imaging in some projects. All of them where a way to learn more about subjects that passionate me during my classes. 
 
-The main project i make is a pathtracing renderer in C++ and CUDA. I started this project with a image synthesis project in class consisting on a raycasting renderer. 
+The main project I made is a path tracing renderer in C++ and CUDA. I started this project during an image synthesis project consisting on a raycasting renderer. At the end of the project, I continue working an this render to add some new features including global illumination with path tracing, different kind of materials or area lights. It was for me the most interesting project and I'm still working on it during my free time. 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
 
-I also worked on a saillance baised blur for video games. We proposed diffrents modèles of saillance to add blur on video games.
+I also worked on a dynamic blur for video games based on saillance models. We proposed an implementation of differents simple saillance models for unity games. We had the chance to show our work to Kenneth Vanhoey a research scientist at Unity Technologies.
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
 
-My last project is a Multi-frame super resolution application in C++/CUDA.
+My last project was a multi-frame super resolution application in Android. I worked and this subject during my internship in research and development team of Jouve. I was a really interested project where the main limitations where really different from my usual C++ development projects.
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
 
-Feel free to contact me if you have some questions.  
+Feel free to contact me if you have some questions. 
