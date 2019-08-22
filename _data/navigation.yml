@@ -3,8 +3,8 @@ main:
   - title: "Projet Raytracing"
     url: /raytracing/
 
-  - title: "Projet Synthèse de textures"
-    url: /texturesynthesis/    
+  - title: "Saillance modele project"
+    url: /saillance_modele/    
 
   - title: "Projet Super-Résolution d'images"
     url: /super_resolution/    
