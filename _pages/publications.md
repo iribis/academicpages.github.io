@@ -5,7 +5,7 @@ permalink: /raytracing/
 author_profile: true
 ---
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
+
 During my second year at ESIR school, I started working with my teammate on a raytracing renderer for one of our courses. It started with a simple ray casting with direct illumination and some acceleration structures. At this moment our main goal was to accelerate our renderer as fast as possible for an internal benchmark competition. We finished with a *15 000-time faster rendering from the starting project.
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
