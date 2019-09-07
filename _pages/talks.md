@@ -12,11 +12,11 @@ The choose to work with 2 images : one blured with simple convolution and the or
 
 Based on this methode, we propose 2 simple saillance modèles, one based on camera depth and distance to the center of the camera and a second one based a colorimetric saillance.
 An image with saillance dased on distance to the center of the sreen
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG" /></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG?raw=true" /></div>
 
 The second methode is the color based saillance.
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(6).jpg?raw=true" /></div>
 
 This is the saillance map from the last image :
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(5).jpg" /></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(5).jpg?raw=true" /></div>
 
