@@ -21,13 +21,13 @@ The main project I made is a path tracing renderer in C++ and CUDA. I started th
 
 <div style="text-align: justify"> 
 I also worked on a dynamic blur for video games based on saillance models. We proposed an implementation of differents simple saillance models for unity games. We had the chance to show our work to Kenneth Vanhoey a research scientist at Unity Technologies.
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG?raw=true" /></div>
 </div>
 <br>
 
 <div style="text-align: justify"> 
 My last project was a multi-frame super resolution application in Android. I worked and this subject during my internship in research and development team of Jouve. I was a really interested project where the main limitations where really different from my usual C++ development projects.
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Screenshot_20190816-110922%5B1%5D.png?raw=true" /></div>
 </div>
 <br>
 
