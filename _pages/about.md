@@ -27,7 +27,7 @@ I also worked on a dynamic blur for video games based on saillance models. We pr
 
 <div style="text-align: justify"> 
 My last project was a multi-frame super resolution application in Android. I worked and this subject during my internship in research and development team of Jouve. I was a really interested project where the main limitations where really different from my usual C++ development projects.
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Screenshot_20190816-110922%5B1%5D.png?raw=true" /></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Screenshot_20190816-110922%5B1%5D.png?raw=true" height="30%" width="30%"/></div>
 </div>
 <br>
 
