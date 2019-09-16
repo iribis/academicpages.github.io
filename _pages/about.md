@@ -15,7 +15,7 @@ This page as for objectives to regroup and summarize some projects I made this y
 
 <div style="text-align: justify"> 
 The main project I made is a path tracing renderer in C++ and CUDA. I started this project during an image synthesis project consisting on a raycasting renderer. At the end of the project, I continue working an this render to add some new features including global illumination with path tracing, different kind of materials or area lights. It was for me the most interesting project and I'm still working on it during my free time. 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/DiffuseSIA8571.jpg" /></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/DiffuseSIA1155.jpg?raw=true" /></div>
 </div>
 <br>
 
