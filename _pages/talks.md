@@ -15,8 +15,8 @@ An image with saillance dased on distance to the center of the sreen
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG?raw=true" height="70%" width="70%"/></div>
 
 The second methode is the color based saillance.
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(6).jpg?raw=true" height="70%" width="70%"/></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(7).jpg?raw=true" height="70%" width="70%"/></div>
 
 This is the saillance map from the last image :
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(5).jpg?raw=true" height="70%" width="70%"/></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(8).jpg?raw=true" height="70%" width="70%"/></div>
 
