@@ -20,7 +20,7 @@ I also worked on a simple may to create micro-facets materials effects without s
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/PokeBoule603.jpg" height="70%" width="70%"/></div>
 <div style="text-align: justify"> 
 Finally, I implemented another path tracing renderer with CUDA to speed up my rendering time and learn some basics about GPU programming. I finally achieved an equivalent code on the GPU renderer compare to the CPU one.
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPU_Pathtracing.JPG?raw=true" height="80%" width="80%"/></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPU_Pathtracing.JPG?raw=true" height="70%" width="70%"/></div>
 </div>
 My next objective is to build a light tracing renderer and then a bi-directional path tracing.
 
