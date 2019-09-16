@@ -14,7 +14,7 @@ Based on this methode, we propose 2 simple saillance modèles, one based on came
 An image with saillance dased on distance to the center of the sreen
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG?raw=true" height="70%" width="70%"/></div>
 
-The second methode is the color based saillance.
+The second methode is the color based saillance. We use the histograme distribution to found color self information and build a saillance map on it. More a color is present in the image, more it will be blur. This modele iss based on the fact that uncomun color are more likely saillante that commun color in an image.
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Dessin%20sans%20titre%20(7).jpg?raw=true" height="70%" width="70%"/></div>
 
 This is the saillance map from the last image :
