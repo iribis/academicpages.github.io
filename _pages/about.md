@@ -21,7 +21,7 @@ The main project I made is a path tracing renderer in C++ and CUDA. I started th
 
 <div style="text-align: justify"> 
 I also worked on a dynamic blur for video games based on saillance models. We proposed an implementation of differents simple saillance models for unity games. We had the chance to show our work to Kenneth Vanhoey a research scientist at Unity Technologies.
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG?raw=true" height="70%" width="70%"/></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG?raw=true" height="75%" width="75%"/></div>
 </div>
 <br>
 
