@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* 4th year in Graduate Engenering School, ESIR - Rennes France, 2019
+* 5th year in Graduate Engenering School, ESIR - Rennes France, 2019
 * French High School Leaving Certificate with Honours, Rennes France, 2015
 
 
@@ -19,27 +19,31 @@ Profesional experience
 ======
 * Summer 2019 : Intership in  research and development on Super resoltion
   * Jouve, Mayenne France
+  * 4 months
   * Prototype for super resolution developpment in Android
   * Analysis of the state of art
 
 * Summer 2018 : Team member
   * McDonalds, Servon France
+  * 4 months
   * Summer job in a fast food restaurant
   
 * Summer 2017 : Intership in JAVA programming
   * Renault, Guyancourt France
+  * 1 months
   * JEE programming
   * Agile developpment
   
 * Summer 2016 : Intership to update a Labview software
   * UTP, Timisoara Romania
+  * 1 months
   * Updating an old project
   * Creating compatibilities for all Windows versions
   
 * Summer 2014-2016 : Contract staff
   * Liffre France
   * Waiter
-  * Animator
+  * Animator for childrens
   * Team manager for projects
 
 Strengths
