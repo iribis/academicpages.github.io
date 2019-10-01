@@ -5,11 +5,11 @@ permalink: /saillance_modele/
 author_profile: true
 ---
 <div style="text-align: justify"> 
-During my second year at ESIR school, I made with 3 other students a project about saillance models and dynamic blur for video games in unity. The objective was to build a saillance model usable in simple video game made with unity. We choose to work with post-processing methods that seems to be the easiest way to insert blur in the model. The choose to work with two images: one blurred with a simple convolution and the original one. In a second step, we mix the two images based on a saillance map to creat the output frame.
+During my second year at ESIR school, I made with 3 other students a project about saillance models and dynamic blur for video games in unity. The objective was to build a saillance model usable in simple video game made with unity. We choose to work with post-processing methods that seems to be the easiest way to insert blur in the model. We choose to work with two images: one blurred with a simple convolution and the original one.  the two images are then mixed based on a saillance map to creat the output frame.
 </div>
 
 <div style="text-align: justify"> 
-Based on this method, we propose 2 simple saillance models, one based on camera depth and distance to the center of the camera and a second one based a colorimetric saillance. 
+With this method, we propose 2 simple saillance models, one based on camera depth and distance to the center of the camera and a second one based a colorimetric saillance. 
 The first example is distance to the center of the screen based blur.
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/VilleSaillanceCentrale.PNG?raw=true" height="70%" width="70%"/></div>
 </div>
