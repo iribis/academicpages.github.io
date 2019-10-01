@@ -32,5 +32,4 @@ Finally, I worked on an intelligent criterion to stop raytracing recursion. We k
 When I finished my CPU implementation of a path tracer, I wanted to work on a GPU implementation. I worked with CUDA C++ to create a similar renderer to my CPU one. It was a really interesting part for me because GPU programming is not part of my education. With the increase of performance, I added commands to moove the camera in the scene. We can see 2 points of view of the same scene:
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel.JPG?raw=false" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel2.JPG?raw=false" height="50%" width="50%"/></div>
 </div>
-My next objective are a light tracing renderer and then a bi-directional path tracing.
-
+In October 2019, I started a projet of bidirectional path tracer with optimal multiple importance sampling weights.
