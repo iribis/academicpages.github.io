@@ -15,7 +15,7 @@ During my second year at ESIR school, I started working with my teammate on a ra
 <div style="text-align: justify"> 
 During my free time I continue the project and implement a simple and biased Monte Carlo path tracing integrator for global illumination. After that, we started working on global illumination in class that gave me a part a the knowledge that missed me and I unbiased a big part of my renderer. We also added area lights and direct lightning sampling.At this point our previous results where more realistic and where like:
 </div>
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/TibetHouseInsideIllu.jpg?raw=true" height="40%" width="40%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/TibetHouseInsideIllu.jpg?raw=true" height="40%" width="40%"/></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/TibetHouseInsideIllu.jpg?raw=true" height="40%" width="40%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/boat3500.jpg?raw=true" height="40%" width="40%"/></div>
 
 <div style="text-align: justify"> 
 To create more realistic materials, we implemented new BRDF for materials based on differents models based on Fresnel and Cok equations or simple equations that have render metalics effects on materials. I also work on a simple implementation of micro-facets effects that we add on some materials. In the image below you can see some of our results. It shows differents types of materials for a same object. The main idea was to work on BRDF models and then work on some basic importance sampling that match with the BSDF.
@@ -30,7 +30,7 @@ Finally, I worked on an intelligent criterion to stop raytracing recursion. We k
 
 <div style="text-align: justify"> 
 When I finished my CPU implementation of a path tracer, I wanted to work on a GPU implementation. I worked with CUDA C++ to create a similar renderer to my CPU one. It was a really interesting part for me because GPU programming is not part of my education. With the increase of performance, I added commands to moove the camera in the scene. We can see 2 points of view of the same scene:
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel.JPG?raw=false" height="40%" width="40%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/TibetHouseInsideIllu.jpg?raw=true" height="40%" width="40%"/></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel.JPG?raw=false" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel2.JPG?raw=false" height="50%" width="50%"/></div>
 </div>
 My next objective are a light tracing renderer and then a bi-directional path tracing.
 
