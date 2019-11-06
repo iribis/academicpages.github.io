@@ -39,13 +39,12 @@ When I finished my CPU implementation of a path tracer, I wanted to work on a GP
 
 
 <div style="text-align: justify"> 
-Since october, I started working on unbiaised rendering for a research project. I started by a MIS path tracing with balance and power heuristique on direct lightning. The MIS is a very usefull technique to reduce noise and optimise the combination of diffrent sampling techniques. You can see below 2 diffrents light sampling techniques and the final result with MIS between the two strategies.
-</div>
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel.JPG?raw=false" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel2.JPG?raw=false" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel2.JPG?raw=false" height="50%" width="50%"/></div>
+Since October, I have started working on unbiased rendering for a research project. I started by a MIS path tracing with balance and power heuristic on direct lightning. The MIS is a very useful technique to reduce noise and optimise the combination of differents sampling techniques. You can see below 2 differents light sampling techniques and the final result with MIS between the two strategies.</div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/veachBSDF.JPG?raw=true" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/veachLight.JPG?raw=true" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/veachPowerMIS.JPG?raw=true" height="50%" width="50%"/></div>
 
 <div style="text-align: justify"> 
-I also worked on an unbised ligth tracing renderer and started working on bi-directional path tracing. You can see the result from ligth tracing and MIS path tracing below for a same scene.
+I also worked on an unbiased light tracing renderer and started working on bi-directional path tracing. You can see the result from light tracing and MIS path tracing below for a same scene.
 </div>
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel.JPG?raw=false" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel2.JPG?raw=false" height="50%" width="50%"/></div>
+<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/cornelLT.JPG?raw=true" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/cornelPTMIS.JPG?raw=true" height="50%" width="50%"/></div>
 
-I'm cuurently working on bi-directional path tracing using pbrt implementation for a school research project.
+I'm currently working on bi-directional path tracing using pbrt implementation for a school research project.
