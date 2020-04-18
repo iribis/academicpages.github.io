@@ -6,18 +6,45 @@ author_profile: true
 ---
 
 <div style="text-align: justify"> 
-During 4 months of internship at Jouve, I worked on an Android super resolution prototype. This project followed my internship tutor’s work on a super resolution prototype for iOS. 
-Our super resolution model is based on multi-frame merging in order to reduce the missing information in the single capture.
+During my last year of my master's degree, I worked on different methods of color and style transfer in collaboration with Thomas Lemetayer. We tested algorithms from [Reinhard et al. 2001], [Pitié and Kokaram 2007] and [Gatys et al. 2015]. 
+Style and color transfer consists in transferring characteristics of a style image such as its color, distribution or textures to an image whose forms and content are retained.
 </div>
 
 <div style="text-align: justify"> 
-I have built an application capturing a burst of images and merging them to create a super resolution image. With super resolution images we can reveal small details that are invisible in single frames.
-The image below show a single frame and a super resolution image created by our application.
+First, we worked on the algorithm of [Reinhard et al. 2001]. This can be described as follows: 
+Calculate the mean and standard deviation for the content image and the style image
+Transfer the mean and standard deviation of the style image to the content image
+This method is very fast and gives good results when we have Gaussian color distributions in the images. Moreover, it is possible to work in different color spaces such as Lαβ to have very uncorrelated channels and have better distributions.
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/Reinhard.jpg?raw=true" height="30%" width="30%"style="transform:rotate(270deg);"/></div>
+</div>
+
+<div style="text-align: justify"> 
+We have proposed a method to extend this method to HDR (Hight Dynamic Range) images based on the tone mapping of [Reinhard and Devlin 2005] and giving better results than applying the color transfer to tone mapped images.
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/hdrColorTransfert.jpg?raw=true" height="30%" width="30%"style="transform:rotate(270deg);"/></div>
+</div> 
+
+<div style="text-align: justify"> 
+Then, we worked on the algorithm of [Pitié and Kokaram 2007] based on colorimetric distribution matching. It is an iterative algorithm giving very good results on natural scenes.
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/pitie.jpg?raw=true" height="30%" width="30%"style="transform:rotate(270deg);"/></div>
+</div>
+
+<div style="text-align: justify"> 
+We have also worked on extending color transfer to video and multi-style.  Indeed, it is possible to use several style images to generate a single resulting image.By applying images from different seasons we can then give the impression of time passing on a single image, this effect is called time hallucination.
+
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/UnsharpV2.PNG?raw=true" height="30%" width="30%"style="transform:rotate(270deg);"/></div>
 </div>
 
 <div style="text-align: justify"> 
- You can see in this example that the super resolution image has small details (Litle white points) that are really blurred in the first frem captured. 
+Finally, we worked on style transfer and in particular on the machine learning approach of [Gatys et al. 2015] which is available on the deepart.io website.
 
-It was a really interesting project and a great experience for me. I learn a lot about super resolution, research and development and Android development. 
-</div>  
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/deepArt.jpg?raw=true" height="30%" width="30%"style="transform:rotate(270deg);"/></div>
+</div>
+
+<div style="text-align: justify"> 
+One of the applications of style transfer that we have studied is texture synthesis. To do this, we apply style transfer to a noise image and obtain a random image with the characteristics of the reference texture.
+
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/textureSynthesis.jpg?raw=true" height="30%" width="30%"style="transform:rotate(270deg);"/></div>
+</div>
