@@ -6,8 +6,8 @@ main:
   - title: "Saillance modele project"
     url: /saillance_modele/    
 
-  - title: "Image super-resolution project"
-    url: /super_resolution/    
+  - title: "Color and style transfert"
+    url: /transfert/    
     
   - title: "CV"
     url: /cv/
