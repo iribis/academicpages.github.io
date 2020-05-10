@@ -10,7 +10,9 @@ redirect_from:
 
 <div style="text-align: justify"> 
 Currently finishing my studies in computer graphics at ESIR school, I'm doing an internship as a Graphics research intern at Unity Technologies.
+  
 I'm particularly interested in light transport simulation and image synthesis tools but I also worked on image processing and computer vision projects.
+
 The purpose of this page is to list and present some of the projects I have done. 
   </div>
 <br>
