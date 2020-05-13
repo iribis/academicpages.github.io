@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Projet Raytracing"
-permalink: /raytracing/
+title: "Distributing Monte Carlo error as Blue noise"
+permalink: /BlueNoise/
 author_profile: true
 ---
 
