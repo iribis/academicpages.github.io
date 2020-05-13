@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "Blue noise"
+  - title: "Blue Noise"
     url: /BlueNoise/
 
-  - title: "Optial MIS"
+  - title: "Optimal MIS"
     url: /OptimalMIS/    
 
   - title: "Color and style transfert"
