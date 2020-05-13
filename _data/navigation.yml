@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Raytracing project"
-    url: /raytracing/
+  - title: "Blue noise"
+    url: /BlueNoise/
 
-  - title: "Saillance modele project"
-    url: /saillance_modele/    
+  - title: "Optial MIS"
+    url: /OptimalMIS/    
 
   - title: "Color and style transfert"
     url: /transfert/    
