@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Saillance modele project"
-permalink: /saillance_modele/
+title: "Optial Multiple Importance Sampling in BDPT"
+permalink: /OptimalMIS/
 author_profile: true
 ---
 <div style="text-align: justify"> 
