@@ -18,7 +18,7 @@ One of the central issues in this field is the creation of blue noise dither. Th
 
 </div>
 
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/BoatDirect.jpg?raw=true" height="40%" width="40%"/><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/dither.png" height="40%" width="40%"/></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/dither.png" height="40%" width="40%"/></div>
 
 <div style="text-align: justify"> 
   <br />
