@@ -43,4 +43,4 @@ We can see that the visual quality is greatly improved compared to traditional r
 
 <div style="text-align: justify">
   <br />
-Finally, during my internship, I worked on new methods allowing to opt for blue noise error distributions that will complete this page in the future.</div>
+Finally, during my internship, I worked on new methods allowing to obtain blue noise error distributions that will complete this page in the future.</div>
