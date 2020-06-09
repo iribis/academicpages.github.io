@@ -18,7 +18,7 @@ One of the central issues in this field is the creation of blue noise dither. Th
 
 </div>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/dither.png raw=true" height="120%" width="120%"/></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/dither.png?raw=true" height="120%" width="120%"/></div>
 
 <div style="text-align: justify"> 
   <br />
@@ -26,14 +26,14 @@ These vectors can be directly used as random sequences for monte carlo integrati
 
 </div>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/georgievRender.png raw=true" height="120%" width="120%"/></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/georgievRender.png?raw=true" height="120%" width="120%"/></div>
 
 <div style="text-align: justify"> 
   <br />
 The method proposed by [Heitz and Belcour 2019] is based on the use of seeds of random sequences rather than on the sequences themselves in order to simplify the problem. Here, the idea is to locally swap the seeds between 2 frames of rendering in order to obtain a blue noise error distribution. This method requires as learned that the integrade to compute is locally similar (which is often true) and that a seed is the only element determining the value of the result (ie the neighboring pixels have no impact). By applying an optimal transport algorithm between the values obtained by the renderer and the values of a 1D blue noise dither, we can locally optimize the position of seeds.
 The idea is to try to put the seeds giving low values on the spot of low values of the dither and vice versa for the high values. The following figure shows the result comparison between a classical random rendering and the presented algorithm.
 </div>
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/EGSR_render.png raw=true" height="120%" width="120%"/></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/EGSR_render.png?raw=true" height="120%" width="120%"/></div>
 
 <div style="text-align: justify"> 
   <br />
