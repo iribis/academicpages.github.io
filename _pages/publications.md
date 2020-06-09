@@ -26,7 +26,7 @@ These vectors can be directly used as random sequences for monte carlo integrati
 
 </div>
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/georgievRender.png" height="100%" width="100%"/></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/Georgiev_comp.png" height="100%" width="100%"/></div>
 
 <div style="text-align: justify"> 
   <br />
