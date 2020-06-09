@@ -6,50 +6,41 @@ author_profile: true
 ---
 
 <div style="text-align: justify"> 
-During my second year at ESIR school, I started working with my teammate on a raytracing renderer for one of our courses. It started with a simple ray casting with direct illumination and some acceleration structures. We implemented a BVH acceleration structure with SAH heuristic.
-  
+During my end-of-study internship at Unity Labs in Grenoble with Eric Heitz and Laurent Belcour. I worked on the Monte Carlo error distribution at high frequencies. This type of distribution is called blue noise.
+This type of distribution has very strong denoising properties and is generally more visually pleasing than purely random distributions. Originally widely used in the printing industry to give grayscale images from black and white dots, it is increasingly used in computer graphics.
+
+Modern graphics rendering is based on Monte-Carlo integration for the management of emissive surfaces or global illumination. These integrals have converging properties but with a limited computing time lead to rendering errors.
+Using purely random sequences gives error distributions where all frequencies are equally likely to occur. These distributions are not the most interesting ones and various algorithms have been developed in order to obtain better distributions.
 </div>
 
 <div style="text-align: justify"> 
-During my free time I continue the project and implement a simple and biased Monte Carlo path tracing integrator for global illumination. After that, we started working on global illumination in class that gave me a part a the knowledge that missed me and I unbiased a big part of my renderer. We also added area lights and direct lightning sampling.
-  
+One of the central issues in this field is the creation of blue noise dither. This is a vector image having the property of being distributed according to high frequencies. The following figure shows an example of dither generated from the algorithm of [Georgiev and Fajardo 2016] and its FFT.
+
 </div>
 
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/BoatDirect.jpg?raw=true" height="40%" width="40%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/boat3500.jpg?raw=true" height="40%" width="40%"/></div>
+
 <div style="text-align: justify"> 
   <br />
-  The left image is a direct rendering from our first renderer and le right image a global illuminated rendering for the same scene.
-  
-</div>
-<div style="text-align: justify"> 
-  <br />
-To create more realistic materials, we implemented new BRDF for materials based on differents models based on Fresnel and Cok equations or simple equations that have render metalics effects on materials. I also work on a simple implementation of micro-facets effects that we add on some materials. In the image below you can see some of our results. It shows differents types of materials for a same object. The main idea was to work on BRDF models and then work on some basic importance sampling that match with the BSDF.
+These vectors can be directly used as random sequences for monte carlo integration and allow to opt for a blue noise. On the other hand, this method remains limited because it requires large random vectors distributed according to a blue noise, which is still an unsolved problem. The following figure shows an example of a result obtained with this method. We can see that we obtain a visually much better result than with a classical distribution. It should be noted that this method does not add any extra computation cost since the sequences are pre-calculated.
+
 </div>
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/iribis/iribis.github.io/master/images/PokeBoule603.jpg" height="55%" width="55%"/></div>
 
 <div style="text-align: justify"> 
   <br />
-Finally, I worked on an intelligent criterion to stop raytracing recursion. We know that estimator variance decrease proportional to the square root of the number of samples, in that way we determine when the difference of result between a number of samples is still important or if we can consider the result close to converged. We based our criteria on evolution of global image energie that have the following evolution with the number of samples:
+The method proposed by [Heitz and Belcour 2019] is based on the use of seeds of random sequences rather than on the sequences themselves in order to simplify the problem. Here, the idea is to locally swap the seeds between 2 frames of rendering in order to obtain a blue noise error distribution. This method requires as learned that the integrade to compute is locally similar (which is often true) and that a seed is the only element determining the value of the result (ie the neighboring pixels have no impact). By applying an optimal transport algorithm between the values obtained by the renderer and the values of a 1D blue noise dither, we can locally optimize the position of seeds.
+The idea is to try to put the seeds giving low values on the spot of low values of the dither and vice versa for the high values. The following figure shows the result comparison between a classical random rendering and the presented algorithm.
 </div>
 <div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/Boat151Energie.PNG?raw=true" height="40%" width="40%"/></div>
 
 <div style="text-align: justify"> 
   <br />
-When I finished my CPU implementation of a path tracer, I wanted to work on a GPU implementation. I worked with CUDA C++ to create a similar renderer to my CPU one. It was a really interesting part for me because GPU programming is not part of my education. With the increase of performance, I added commands to moove the camera in the scene. We can see 2 points of view of the same scene:
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel.JPG?raw=false" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/GPUcornel2.JPG?raw=false" height="50%" width="50%"/></div>
+We can see that the visual quality is greatly improved compared to traditional random sequences. Moreover, it is a temporal algorithm that is easily usable and with a relatively low computational overhead compared to the visual improvement provided.
 </div>
 
 
 <div style="text-align: justify">
   <br />
-Since October, I have started working on unbiased rendering for a research project. I started by a MIS path tracing with balance and power heuristic on direct lightning. The MIS is a very useful technique to reduce noise and optimise the combination of differents sampling techniques. You can see below 2 differents light sampling techniques and the final result with MIS between the two strategies.</div>
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/veachBSDF.JPG?raw=true" height="40%" width="40%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/veachLight.JPG?raw=true" height="40%" width="40%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/veachPowerMIS.JPG?raw=true" height="40%" width="40%"/></div>
-
-<div style="text-align: justify"> 
-<br />
-I also worked on an unbiased light tracing renderer and started working on bi-directional path tracing. You can see the result from light tracing and MIS path tracing below for a same scene.
-</div>
-<div style="text-align:center"><img src="https://github.com/iribis/iribis.github.io/blob/master/images/cornelLT.JPG?raw=true" height="50%" width="50%"/><img src="https://github.com/iribis/iribis.github.io/blob/master/images/cornelPTMIS.JPG?raw=true" height="50%" width="50%"/></div>
-
-I'm currently working on bi-directional path tracing using pbrt implementation for a school research project.
+Finally, during my internship, I worked on new methods allowing to opt for blue noise error distributions that will complete this page in the future.</div>
